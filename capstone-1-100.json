@@ -1,0 +1,508 @@
+{
+  "data": [
+    {
+      "x": "What is PyTorch",
+      "y": "PyTorch  torch is one of the most popular machine learning and deep learning frameworks",
+      "z": " hi everybody welcome to a new tutorial series in this series we are going to learn how to work with PI torch high torch is one of the most popular machine learning and deep learning frameworks it's really fun to work with it and develop cool applications so I hope you watch the serious and learn all about the necessary basics for this framework so in this first video I show you how we install PI torch so let's start and for this we go to the official website PI torch org then click on get started then select the newest PI touch build right now this is version 1.3 then select your operating system so in my case it's a Mac then select the package manager with which you want to install PI torch so I highly recommend to use anaconda",
+      "video_id": "EMXfZB8FVUA"
+    },
+    {
+      "x": "Which package manager is recommended for PyTorch?",
+      "y": "Anaconda package manager is recommended to install PyTorch",
+      "z": " hi everybody welcome to a new tutorial series in this series we are going to learn how to work with PI torch high torch is one of the most popular machine learning and deep learning frameworks it's really fun to work with it and develop cool applications so I hope you watch the serious and learn all about the necessary basics for this framework so in this first video I show you how we install PI torch so let's start and for this we go to the official website PI torch org then click on get started then select the newest PI touch build right now this is version 1.3 then select your operating system so in my case it's a Mac then select the package manager with which you want to install PI torch so I highly recommend to use anaconda",
+      "video_id": "EMXfZB8FVUA"
+    },
+    {
+      "x": "Why you need CUDA toolkit?",
+      "y": "CUDA toolkit is a development environment for creating high-performance applications",
+      "z": " if you haven't installed anaconda yet and don't know how to use it then please watch my other tutorial about anaconda so I will put the link in the description below and then select the newest python version so here i select python 3.7 and unfortunately on the mac you can only install the CPU version right now but if you are on linux or windows and want to have GPU support and then you can also install or have to install the cuda toolkit first so the CUDA toolkit is a development environment for creating high-performance cheap you accelerated applications for this you need an NVIDIA GPU in your machine and if you have that then you can go to the website developer dot and video comm slash CUDA - downloads and then we have to be careful because right now the newest supported cuda version by pi torch is cuda 10.1 so we have to get this version so right now the newest version is 10.2 so we have to go to legacy releases then selecting newest CUDA toolkit 10.1 then select your  operating system so for example Windows Windows 10 then download the installer and follow the instructions and this will also check if your system is suitable for the CUDA toolkit so if this is successful then we can go  back to the pie charts site and copy this command so in my case on the Mac now I need this command so let's copy this and now let's open up a terminal and first of all we want to create a virtual environment with Conda in which we want to install all of our packages",
+      "video_id": "EMXfZB8FVUA"
+    },
+    {
+      "x": "Why you need CUDA toolkit?",
+      "y": "CUDA toolkit is a development environment for creating high-performance applications",
+      "z": " if you haven't installed anaconda yet and don't know how to use it then please watch my other tutorial about anaconda so I will put the link in the description below and then select the newest python version so here i select python 3.7 and unfortunately on the mac you can only install the CPU version right now but if you are on linux or windows and want to have GPU support and then you can also install or have to install the cuda toolkit first so the CUDA toolkit is a development environment for creating high-performance cheap you accelerated applications for this you need an NVIDIA GPU in your machine and if you have that then you can go to the website developer dot and video comm slash CUDA - downloads and then we have to be careful because right now the newest supported cuda version by pi torch is cuda 10.1 so we have to get this version so right now the newest version is 10.2 so we have to go to legacy releases then selecting newest CUDA toolkit 10.1 then select your  operating system so for example Windows Windows 10 then download the installer and follow the instructions and this will also check if your system is suitable for the CUDA toolkit so if this is successful then we can go  back to the pie charts site and copy this command so in my case on the Mac now I need this command so let's copy this and now let's open up a terminal and first of all we want to create a virtual environment with Conda in which we want to install all of our packages",
+      "video_id": "EMXfZB8FVUA"
+    },
+    {
+      "x": "How pytorch replaces numpy?",
+      "z": "basically enabling researchers to be as expressive and as as creative as they can but you know there is a portion of that research whether again that whether it's fair or or other teams at facebook um or other places um that gets into production so we want to make that that kind of flywheel uh as fast as possible um to be able to take research and and be able to deploy it at some type of large scale uh and you know the project itself is of course an open source project you can look at it on github it's under github.com pytorch pi torch is the core project um you know we have uh i think actually over 1400 now um contributors PyTorch is a Python-based scientific computing package it is replacement for numpy to use the power of gpus and other accelerators it's it's actually really a set of libraries and and functions and uh and tools and other things that you can basically use to develop neural networks so it could be for example torch and then which is really just a you know your canonical way to define a layer or your optimizer ",
+      "y": "unlike numpy PyTorch uses power of GPUs and other accelerators"
+    },
+    {
+      "x": "How pytorch differs from numpy ?",
+      "z": "basically enabling researchers to be as expressive and as as creative as they can but you know there is a portion of that research whether again that whether it's fair or or other teams at facebook um or other places um that gets into production so we want to make that that kind of flywheel uh as fast as possible um to be able to take research and and be able to deploy it at some type of large scale uh and you know the project itself is of course an open source project you can look at it on github it's under github.com pytorch pi torch is the core project um you know we have uh i think actually over 1400 now um contributors PyTorch is a Python-based scientific computing package it is replacement for numpy to use the power of gpus and other accelerators it's it's actually really a set of libraries and and functions and uh and tools and other things that you can basically use to develop neural networks so it could be for example torch and then which is really just a you know your canonical way to define a layer or your optimizer ",
+      "y": "unlike numpy PyTorch uses power of GPUs and other accelerators"
+    },
+    {
+      "x": "Differences between pytorch and numpy ?",
+      "z": "basically enabling researchers to be as expressive and as as creative as they can but you know there is a portion of that research whether again that whether it's fair or or other teams at facebook um or other places um that gets into production so we want to make that that kind of flywheel uh as fast as possible um to be able to take research and and be able to deploy it at some type of large scale uh and you know the project itself is of course an open source project you can look at it on github it's under github.com pytorch pi torch is the core project um you know we have uh i think actually over 1400 now um contributors PyTorch is a Python-based scientific computing package it is replacement for numpy to use the power of gpus and other accelerators it's it's actually really a set of libraries and and functions and uh and tools and other things that you can basically use to develop neural networks so it could be for example torch and then which is really just a you know your canonical way to define a layer or your optimizer ",
+      "y": "unlike numpy PyTorch uses power of GPUs and other accelerators"
+    },
+    {
+      "x": "The differences between pytorch and numpy  ?",
+      "z": "basically enabling researchers to be as expressive and as as creative as they can but you know there is a portion of that research whether again that whether it's fair or or other teams at facebook um or other places um that gets into production so we want to make that that kind of flywheel uh as fast as possible um to be able to take research and and be able to deploy it at some type of large scale uh and you know the project itself is of course an open source project you can look at it on github it's under github.com pytorch pi torch is the core project um you know we have uh i think actually over 1400 now um contributors PyTorch is a Python-based scientific computing package it is replacement for numpy to use the power of gpus and other accelerators it's it's actually really a set of libraries and and functions and uh and tools and other things that you can basically use to develop neural networks so it could be for example torch and then which is really just a you know your canonical way to define a layer or your optimizer ",
+      "y": "unlike numpy PyTorch uses power of GPUs and other accelerators"
+    },
+    {
+      "x": "The differences between pytorch and numpy  ?",
+      "z": "basically enabling researchers to be as expressive and as as creative as they can but you know there is a portion of that research whether again that whether it's fair or or other teams at facebook um or other places um that gets into production so we want to make that that kind of flywheel uh as fast as possible um to be able to take research and and be able to deploy it at some type of large scale uh and you know the project itself is of course an open source project you can look at it on github it's under github.com pytorch pi torch is the core project um you know we have uh i think actually over 1400 now um contributors PyTorch is a Python-based scientific computing package it is replacement for numpy to use the power of gpus and other accelerators it's it's actually really a set of libraries and and functions and uh and tools and other things that you can basically use to develop neural networks so it could be for example torch and then which is really just a you know your canonical way to define a layer or your optimizer ",
+      "y": "unlike numpy PyTorch uses power of GPUs and other accelerators"
+    },
+    {
+      "x": "what happens in model training",
+      "z": "everyone discovered deep learning um a few years later and people started using neural nets uh and then of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex Now that we have a model and data it’s time to train validate and test our model by optimizing its parameters on our data training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent  For a more detailed walkthrough of this process  ",
+      "y": "training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent"
+    },
+    {
+      "x": "what happens in model training",
+      "z": "everyone discovered deep learning um a few years later and people started using neural nets uh and then of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex Now that we have a model and data it’s time to train validate and test our model by optimizing its parameters on our data training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent  For a more detailed walkthrough of this process  ",
+      "y": "training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent"
+    },
+    {
+      "x": "What happens while a model is being trained? ",
+      "z": "everyone discovered deep learning um a few years later and people started using neural nets uh and then of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex Now that we have a model and data it’s time to train validate and test our model by optimizing its parameters on our data training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent  For a more detailed walkthrough of this process  ",
+      "y": "training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent"
+    },
+    {
+      "x": "What happens during the training of a model? ",
+      "z": "everyone discovered deep learning um a few years later and people started using neural nets uh and then of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex Now that we have a model and data it’s time to train validate and test our model by optimizing its parameters on our data training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent  For a more detailed walkthrough of this process  ",
+      "y": "training a model is an iterative process  in each iteration  the model makes a guess about the output  calculates the error in its guess  collects the derivatives of the error with respect to its parameters and optimizes these parameters using gradient descent"
+    },
+    {
+      "x": "Which pytorch module helps in using own datasets ? ",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "Which Python package facilitates the use of one's own datasets? ",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "Which Python module makes working with one's own data simple? ",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "Which Python module makes it easy to work with one's own data?",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "what is the use of torch.utils.data.DataLoader?",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "What is torch.utils.data.DataLoader used for?",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "What is the purpose of torch.utils.data.DataLoader?",
+      "z": "Code for processing data samples can get messy and hard to maintain we ideally want our dataset code to be decoupled from our model training code for better readability and modularity  PyTorch provides two data primitives  torch dot utils dot data dot DataLoader and torch dot utils dot data dot Dataset that allow you to use pre loaded datasets as well as your own data Dataset stores the samples and their corresponding labels and DataLoader wraps an iterable around the Dataset to enable easy access to the samples ",
+      "y": "torch.utils.data.DataLoader and torch.utils.data.Dataset allow you to use pre-loaded datasets as well as your own data"
+    },
+    {
+      "x": "What is the purpose of target_transform?",
+      "z": "so i hope i got the message across on the importance of recommender systems they are under invested have unique system challenges and now with the benchmarks and data sets doors have been opened for you all to innovate and do novel research for new types of systems of the futuredata does not always come in its final processed form that is required for training machine  learning algorithms we use transforms to perform some manipulation of the data and make it suitable for trainingall torchvision datasets have two parameters transform to modify the features and target transform to modify the labels  that accept callables containing thetransformation logic the torchvisiontransforms module offers several commonlyused transforms out of the box",
+      "y": "target_transform modifies the labels that accept callables containing the transformation logic"
+    },
+    {
+      "x": "What is target transform's purpose?",
+      "z": "so i hope i got the message across on the importance of recommender systems they are under invested have unique system challenges and now with the benchmarks and data sets doors have been opened for you all to innovate and do novel research for new types of systems of the futuredata does not always come in its final processed form that is required for training machine  learning algorithms we use transforms to perform some manipulation of the data and make it suitable for trainingall torchvision datasets have two parameters transform to modify the features and target transform to modify the labels  that accept callables containing thetransformation logic the torchvisiontransforms module offers several commonlyused transforms out of the box",
+      "y": "target_transform modifies the labels that accept callables containing the transformation logic"
+    },
+    {
+      "x": "What’s the difference between a Sequential and a torch.nn.ModuleList? ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is exactly what it sounds like–a list for storing Module s! On the other hand, the layers in a Sequential are connected in a cascading way."
+    },
+    {
+      "x": "What exactly is the distinction between a Sequential and a torch.nn.ModuleList?  ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is exactly what it sounds like–a list for storing Module s! On the other hand, the layers in a Sequential are connected in a cascading way."
+    },
+    {
+      "x": "What exactly is the distinction between a Sequential and a torch.nn.ModuleList?  ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is exactly what it sounds like: a list where Modules can be stored! A Sequential, on the other hand, has layers that are connected in a cascading fashion."
+    },
+    {
+      "x": "What exactly is the distinction between a Sequential and a torch.nn.ModuleList?  ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is exactly what it sounds like: a list of Modules! A Sequential, on the other hand, is composed of layers that are linked in a cascading way."
+    },
+    {
+      "x": "What exactly is the distinction between a Sequential and a torch.nn.ModuleList?  ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is just that: a collection of Modules! A Sequential, on the other hand, is made up of layers that are connected in a cascading fashion."
+    },
+    {
+      "x": "What exactly is the distinction between a Sequential and a torch.nn.ModuleList?  ",
+      "z": "so many really cool areas around this topic um and kicking that off is going to be myself um joe spiezak i'm the product lead for pytorch here at facebook and my colleague gita chahan who leads our partner engineering effort around ai so i will move on to uh into the agenda and we'll talk about what is pi torch so pytorch fundamentally is uh you know when we look at the mission it really is about a research prototyping and production deployment this is really what we ladder all of our goals up to when we think about how we build community and really harnessing the best of the research world or you know building products at scale a sequential container. Modules will be added to it in the order they are passed in the constructor a moduleList is exactly what it sounds like a list for storing module  On the other hand, the layers in a Sequential are connected in a cascading way. ",
+      "y": "A ModuleList is nothing more than a collection of Modules! A Sequential, on the other hand, is composed of layers that are linked in a cascading way."
+    },
+    {
+      "x": " how does nn.leakyrelu differ from relu?  ",
+      "z": "all right so were going to talk about two or three topics today and the first one is going to be kind of a review of some of the functions that exist inside torch and kind of when and how to use them so the first the first set of topics is about activation functions and there is a whole bunch of them defined in in tight torch and they basically come from you know various papers that people have written where they claim that this or that particular objective function or activation function works better for their problem so of course everybody knows the value thats very standard one but theres lots of variations of values these values where the the the bottom part is not constant and set to zero they can be allowed to change either only with the positive slope or force to be to have a negative slope or sometimes being random in case of leaky relu it allows a small gradient when the unit is not active  you can use torch dot nn dot leaky relu in the case of the randomized vq value so they have you know a nice named likely key value pair you revalue random value etc so the key value is one where you allow the bottom part to have negative so and that kind of prevents the issue that sometimes pops up that you know when radio is off it doesnt get any gradient so here here you get a chance ",
+      "y": "It allows a small gradient when the unit is not active"
+    },
+    {
+      "x": " What distinguishes nn.leakyrelu from relu?  ",
+      "z": "all right so were going to talk about two or three topics today and the first one is going to be kind of a review of some of the functions that exist inside torch and kind of when and how to use them so the first the first set of topics is about activation functions and there is a whole bunch of them defined in in tight torch and they basically come from you know various papers that people have written where they claim that this or that particular objective function or activation function works better for their problem so of course everybody knows the value thats very standard one but theres lots of variations of values these values where the the the bottom part is not constant and set to zero they can be allowed to change either only with the positive slope or force to be to have a negative slope or sometimes being random in case of leaky relu it allows a small gradient when the unit is not active  you can use torch dot nn dot leaky relu in the case of the randomized vq value so they have you know a nice named likely key value pair you revalue random value etc so the key value is one where you allow the bottom part to have negative so and that kind of prevents the issue that sometimes pops up that you know when radio is off it doesnt get any gradient so here here you get a chance ",
+      "y": "It allows a small gradient when the unit is not active"
+    },
+    {
+      "x": "how to get random numbers in pytorch?  ",
+      "z": "these examples are extracted from open source projects you can vote up the ones you like or vote down the ones you dont like and go to the original project or source file by following the links above each example torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one you may check out the related api usage on the sidebaryou may also want to check out all available functions classes of the module torch  or try the search function  ",
+      "y": "torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one"
+    },
+    {
+      "x": "how to get random numbers in pytorch?  ",
+      "z": "these examples are extracted from open source projects you can vote up the ones you like or vote down the ones you dont like and go to the original project or source file by following the links above each example torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one you may check out the related api usage on the sidebaryou may also want to check out all available functions classes of the module torch  or try the search function  ",
+      "y": "torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one"
+    },
+    {
+      "x": "how to generate random numbers in pytorch?  ",
+      "z": "these examples are extracted from open source projects you can vote up the ones you like or vote down the ones you dont like and go to the original project or source file by following the links above each example torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one you may check out the related api usage on the sidebaryou may also want to check out all available functions classes of the module torch  or try the search function  ",
+      "y": "torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one"
+    },
+    {
+      "x": "how to make random numbers with pytorch?  ",
+      "z": "these examples are extracted from open source projects you can vote up the ones you like or vote down the ones you dont like and go to the original project or source file by following the links above each example torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one you may check out the related api usage on the sidebaryou may also want to check out all available functions classes of the module torch  or try the search function  ",
+      "y": "torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one"
+    },
+    {
+      "x": "how to make random numbers with pytorch?  ",
+      "z": "these examples are extracted from open source projects you can vote up the ones you like or vote down the ones you dont like and go to the original project or source file by following the links above each example torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one you may check out the related api usage on the sidebaryou may also want to check out all available functions classes of the module torch  or try the search function  ",
+      "y": "torch dot random returns a tensor filled with random numbers from a normal distribution with mean zero and variance one"
+    },
+    {
+      "x": "how dataloader works?  ",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "How does the dataloader work?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "What is the purpose of the dataloader?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "What is the purpose of the dataloader?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "What is the dataloader's purpose?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "What is the function of the dataloader?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "What role does the dataloader play?",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "dataloader wraps an iterable over our dataset, and supports automatic batching, sampling, shuffling and multiprocess data loading"
+    },
+    {
+      "x": "Is a cifar dataset available in torchvision?  ",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "Yes, the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco"
+    },
+    {
+      "x": "Is a coco dataset available in torchvision?  ",
+      "z": "the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco  in this tutorial we use the fashionmnist dataset every torchvision dataset includes two arguments transform and targettransform to modify the samples and labels respectively we pass the dataset as an argument to dataloader this wraps an iterable over our dataset and supports automatic batching sampling shuffling and multiprocess data loading here we define a batch size of 64 each element in the dataloader iterable will return a batch of 64 features and labels pytorch offers domainspecific libraries such as torchtext torchvision and torchaudio all of which include datasets for this tutorial we will be using a torchvision dataset ",
+      "y": "Yes, the torchvisiondatasets module contains dataset objects for many realworld vision data like cifar coco"
+    },
+    {
+      "x": "what is optimization?  ",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "optimization is the process of adjusting model parameters to reduce model error in each training step"
+    },
+    {
+      "x": "what is optimization?  ",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "optimization is the process of adjusting model parameters to reduce model error in each training step"
+    },
+    {
+      "x": "which optimizers are supported in pytorch?  ",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "there are many different optimizers available in PyTorch such as ADAM and RMSProp"
+    },
+    {
+      "x": "In Pytorch, which optimizers are supported?",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "there are many different optimizers available in PyTorch such as ADAM and RMSProp"
+    },
+    {
+      "x": "In Pytorch, which optimizers are supported?",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "Many alternative optimizers, such as ADAM and RMSProp, are accessible in PyTorch. "
+    },
+    {
+      "x": "In Pytorch, which optimizers are supported?",
+      "z": "optimization is the process of adjusting model parameters to reduce model error in each training step optimization algorithms define how this process is performed  all optimization logic is encapsulated in the optimizer object here we use the sgd optimizer additionally there are many different optimizers available in pytorch such as adam and rmsprop that work better for different kinds of models and data  ",
+      "y": "PyTorch has a number of different optimizers, such as ADAM and RMSProp. "
+    },
+    {
+      "x": "what is CTCloss?",
+      "z": "ctcloss  calculates loss between a continuous  time series and a target sequence ctcloss sums over the probability of possible alignments of input to target producing a loss value which is differentiable with respect to each input node the alignment of input to target is assumed to be manytoone which limits the length of the target sequence such that it must be leq the input length in some circumstances when using the cuda backend with cudnn this operator may select a nondeterministic algorithm to increase performance if this is undesirable you can try to make the operation deterministic potentially at a performance cost by setting torchbackendscudnndeterministic  true please see the notes on reproducibility for background ",
+      "y": "Calculates loss between a continuous  time series and a target sequence"
+    },
+    {
+      "x": "What's the difference between tf.nn.ctc_loss with pytorch.nn.CTCLoss",
+      "z": "ctcloss  calculates loss between a continuous  time series and a target sequence ctcloss sums over the probability of possible alignments of input to target producing a loss value which is differentiable with respect to each input node the alignment of input to target is assumed to be manytoone which limits the length of the target sequence such that it must be leq the input length in some circumstances when using the cuda backend with cudnn this operator may select a nondeterministic algorithm to increase performance if this is undesirable you can try to make the operation deterministic potentially at a performance cost by setting torchbackendscudnndeterministic  true please see the notes on reproducibility for background ",
+      "y": "Calculates loss between a continuous  time series and a target sequence"
+    },
+    {
+      "x": "What are sparse arrays",
+      "z": "of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex and a great representative model of that is the deep learning recommendation model as i mentioned  pytorch provides torchtensor to represent a multidimensional array containing elements of a single data type by default array elements are stored contiguously in memory leading to efficient implementations of various array processing algorithms that relay on the fast access to array elements however there exists an important class of multidimensional arrays socalled sparse arrays where the contiguous memory storage of array elements turns out to be suboptimal sparse arrays have a property of having a vast portion of elements being equal to zero which means that a lot of memory as well as processor resources can be spared if only the nonzero elements are stored orand processed various sparse storage formats such as coo csrcsc lil  have been developed that are optimized for a particular structure of nonzero elements in sparse arrays as well as for specific operations on the arrays when talking about storing only nonzero elements of a sparse array the usage of adjective nonzero is not strict one is allowed to store also zeros in the sparse array data structure hence in the following we use specified elements for those array elements that are actually stored in addition the unspecified elements are typically assumed to have zero value but not only hence we use the term fill value to denote such elements",
+      "y": "Sparse arrays have a property of having a vast portion of elements being equal to zero which means that a lot of memory as well as processor resources can be spared if only the non-zero elements are stored or/and processed"
+    },
+    {
+      "x": "What are sparse arrays",
+      "z": "of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex and a great representative model of that is the deep learning recommendation model as i mentioned  pytorch provides torchtensor to represent a multidimensional array containing elements of a single data type by default array elements are stored contiguously in memory leading to efficient implementations of various array processing algorithms that relay on the fast access to array elements however there exists an important class of multidimensional arrays socalled sparse arrays where the contiguous memory storage of array elements turns out to be suboptimal sparse arrays have a property of having a vast portion of elements being equal to zero which means that a lot of memory as well as processor resources can be spared if only the nonzero elements are stored orand processed various sparse storage formats such as coo csrcsc lil  have been developed that are optimized for a particular structure of nonzero elements in sparse arrays as well as for specific operations on the arrays when talking about storing only nonzero elements of a sparse array the usage of adjective nonzero is not strict one is allowed to store also zeros in the sparse array data structure hence in the following we use specified elements for those array elements that are actually stored in addition the unspecified elements are typically assumed to have zero value but not only hence we use the term fill value to denote such elements",
+      "y": "Sparse arrays have the attribute of having a large part of its items equal to zero, which means that if just the non-zero elements are kept or processed, a lot of memory and CPU resources can be saved. "
+    },
+    {
+      "x": "What are sparse arrays",
+      "z": "of course we moved on to sparse neural networks and now we live uh really in this world of of something even more complex and a great representative model of that is the deep learning recommendation model as i mentioned  pytorch provides torchtensor to represent a multidimensional array containing elements of a single data type by default array elements are stored contiguously in memory leading to efficient implementations of various array processing algorithms that relay on the fast access to array elements however there exists an important class of multidimensional arrays socalled sparse arrays where the contiguous memory storage of array elements turns out to be suboptimal sparse arrays have a property of having a vast portion of elements being equal to zero which means that a lot of memory as well as processor resources can be spared if only the nonzero elements are stored orand processed various sparse storage formats such as coo csrcsc lil  have been developed that are optimized for a particular structure of nonzero elements in sparse arrays as well as for specific operations on the arrays when talking about storing only nonzero elements of a sparse array the usage of adjective nonzero is not strict one is allowed to store also zeros in the sparse array data structure hence in the following we use specified elements for those array elements that are actually stored in addition the unspecified elements are typically assumed to have zero value but not only hence we use the term fill value to denote such elements",
+      "y": "Sparse arrays have the attribute of having a large part of its items equal to zero, which means that if just the non-zero elements are kept or processed, a lot of memory and CPU resources can be saved. "
+    },
+    {
+      "x": "What is the use of stride argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "stride controls the stride for the crosscorrelation a single number or a tuple"
+    },
+    {
+      "x": "What is the use of padding argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides"
+    },
+    {
+      "x": "What is the use of dilation argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "dilation controls the spacing between the kernel points"
+    },
+    {
+      "x": "can i use tuple for padding argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides"
+    },
+    {
+      "x": "can i use dictionary for padding argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "no, padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides"
+    },
+    {
+      "x": "can i use dictionary for stride argument in nn.conv2d function",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "stride controls the stride for the crosscorrelation a single number or a tuple"
+    },
+    {
+      "x": "which argument  controls the spacing between the kernel points",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "dilation controls the spacing between the kernel points"
+    },
+    {
+      "x": "how to control the spacing between the kernel points in conv2d",
+      "z": "applies a 2d convolution over an input signal composed of several input planes this module supports tensorfloat32 conv2d takes  stride padding dilation and groups as arguments stride controls the stride for the crosscorrelation a single number or a tuple padding controls the amount of padding applied to the input it can be either a string valid same or a tuple of ints giving the amount of implicit padding applied on both sides dilation controls the spacing between the kernel points also known as the  trous algorithm it is harder to describe but this link has a nice visualization of what dilation does groups controls the connections between inputs and outputs inchannels and outchannels must both be divisible by groups",
+      "y": "dilation controls the spacing between the kernel points"
+    },
+    {
+      "x": "how to control the spacing between the kernel points in conv2d",
+      "z": "Many NLP tasks actually use categorical labels, wherein the model must predict one of a fixed set oflabels. A common way to encode this is to use a unique index per label, but this simple representation can become problematic when the number of output labels is simply too large. An example of this is the language modeling problem, in which the task is to predict the next word, given the words seen in the past. The label space is the entire vocabulary of a language, which can easily grow to several hundred thousand, including special characters, names, and so on. We revisit this problem in later chapters and see how to address it.",
+      "y": "dilation controls the spacing between the kernel points"
+    },
+    {
+      "x": "can tenor datatype be changed?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "you can convert a tensor to a different type  by specifying it at initialization or later using one of the typecasting methods."
+    },
+    {
+      "x": "Is it possible to alter the datatype of a tensor?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "you can convert a tensor to a different type  by specifying it at initialization or later using one of the typecasting methods."
+    },
+    {
+      "x": "Is it feasible to change a tensor's datatype?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "you can convert a tensor to a different type  by specifying it at initialization or later using one of the typecasting methods."
+    },
+    {
+      "x": "how tensors are initialized?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype."
+    },
+    {
+      "x": "how to initialize tensor?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype."
+    },
+    {
+      "x": "what are the ways to initialize tensor?",
+      "z": "Each tensor has an associated type and size. The default tensor type when you use the torch.Tensor constructor is torch.FloatTensor. However, you can convert a tensor to a different type (float, long, double, etc.) by specifying it at initialization or later using one of the typecasting methods. There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype",
+      "y": "There are two ways to specify the initialization type: either by directly calling the constructor of a specific tensor type, such as FloatTensor or LongTensor, or using a special method, torch.tensor(), and providing the dtype."
+    },
+    {
+      "x": "how to check GPU is available?",
+      "z": "PyTorch makes it very easy to create these CUDA tensors, transfering the tensor from the CPU to the GPU while maintaining its underlying type. The preferred method in PyTorch is to be device agnostic and write code that works whether it’s on the GPU or the CPU. In  xample 1­16, we first check whether a GPU is available by using torch.cuda.is_available(), and retrieve the device name with torch.device(). Then, all future tensors are instantiated and moved to the target device by using the .to(device) method.",
+      "y": "we can check  whether a GPU is available by using torch.cuda.is_available()"
+    },
+    {
+      "x": "how to check GPU is available?",
+      "z": "PyTorch makes it very easy to create these CUDA tensors, transfering the tensor from the CPU to the GPU while maintaining its underlying type. The preferred method in PyTorch is to be device agnostic and write code that works whether it’s on the GPU or the CPU. In  xample 1­16, we first check whether a GPU is available by using torch.cuda.is_available(), and retrieve the device name with torch.device(). Then, all future tensors are instantiated and moved to the target device by using the .to(device) method.",
+      "y": "we can check  whether a GPU is available by using torch.cuda.is_available()"
+    },
+    {
+      "x": "is there a way to check GPU is available?",
+      "z": "PyTorch makes it very easy to create these CUDA tensors, transfering the tensor from the CPU to the GPU while maintaining its underlying type. The preferred method in PyTorch is to be device agnostic and write code that works whether it’s on the GPU or the CPU. In  xample 1­16, we first check whether a GPU is available by using torch.cuda.is_available(), and retrieve the device name with torch.device(). Then, all future tensors are instantiated and moved to the target device by using the .to(device) method.",
+      "y": "we can check  whether a GPU is available by using torch.cuda.is_available()"
+    },
+    {
+      "x": "Is there a method to check whether or not a GPU is accessible?",
+      "z": "PyTorch makes it very easy to create these CUDA tensors, transfering the tensor from the CPU to the GPU while maintaining its underlying type. The preferred method in PyTorch is to be device agnostic and write code that works whether it’s on the GPU or the CPU. In  xample 1­16, we first check whether a GPU is available by using torch.cuda.is_available(), and retrieve the device name with torch.device(). Then, all future tensors are instantiated and moved to the target device by using the .to(device) method.",
+      "y": "we can check  whether a GPU is available by using torch.cuda.is_available()"
+    },
+    {
+      "x": "is there inbuilt sigmoid function?",
+      "z": "PyTorch conveniently offers a Linear class in the torch.nn module that does the bookkeeping needed for the weights and biases, and does the needed affine transform. 1  In  Diving Deep into upervised Training”, you’ll see how to “learn” the values of the weights w and b from data. The activation function used in the preceding example is the sigmoid function. In the following section, we review some common activation functions, including this one. Activation functions are nonlinearities introduced in a neural network to capture complex relationships in data. In  Diving Deep into Supervised Training” and  The Multilayer Perceptron” we dive deeper into why nonlinearities are required in the learning, but first, let’s look at a few commonly used  activation functions. The sigmoid is one of the earliest used activation functions in neural network history. It takes any real value and squashes it into the range between 0 and 1. It is easy to see from the expression that the sigmoid is a smooth, differentiable function. torch implements the sigmoid as torch.sigmoid()",
+      "y": "Pytorch has inbuild sigmoid function. torch implements the sigmoid as torch.sigmoid()"
+    },
+    {
+      "x": "how to use sigmoid function?",
+      "z": "PyTorch conveniently offers a Linear class in the torch.nn module that does the bookkeeping needed for the weights and biases, and does the needed affine transform. 1  In  Diving Deep into upervised Training”, you’ll see how to “learn” the values of the weights w and b from data. The activation function used in the preceding example is the sigmoid function. In the following section, we review some common activation functions, including this one. Activation functions are nonlinearities introduced in a neural network to capture complex relationships in data. In  Diving Deep into Supervised Training” and  The Multilayer Perceptron” we dive deeper into why nonlinearities are required in the learning, but first, let’s look at a few commonly used  activation functions. The sigmoid is one of the earliest used activation functions in neural network history. It takes any real value and squashes it into the range between 0 and 1. It is easy to see from the expression that the sigmoid is a smooth, differentiable function. torch implements the sigmoid as torch.sigmoid()",
+      "y": "Pytorch has inbuild sigmoid function. torch implements the sigmoid as torch.sigmoid()"
+    },
+    {
+      "x": "how  tanh is different from sigmoid function?",
+      "z": "The tanh activation function is a cosmetically different variant of the sigmoid. This becomes clear when you write down the expression for tanh: x e−x − e e x + e −x With a little bit of wrangling (which we leave for you as an exercise), you can convince yourself thattanh is simply a linear transform of the sigmoid function, as shown in  xample 3­3. This is also evident when you write down the PyTorch code for tanh() and plot the curve. Notice that tanh, like the sigmoid, is also a“squashing” function, except that it maps the set of real values from (–∞, +∞) to the range [­1, +1].",
+      "y": "tanh is simply a linear transform of the sigmoid function tanh, likethe sigmoid, is also a “squashing” function, except that it maps the set of real values from (–∞, +∞) tothe range [­1, +1]."
+    },
+    {
+      "x": "what is relu?",
+      "z": "ReLU (pronounced ray­luh) stands for rectified linear unit. This is arguably the most important of the activation functions. In fact, one could venture as far as to say that many of the recent innovations in deep learning would’ve been impossible without the use of ReLU. For something so fundamental, it’s also surprisingly new as far as neural network activation functions go. And it’s surprisingly simple in form: f (x) = max (0, x) So, all a ReLU unit is doing is clipping the negative values to zero",
+      "y": "it is activation function. it clips the negative values to zero"
+    },
+    {
+      "x": "what is softmax?",
+      "z": "Another choice for the activation function is the softmax. Like the sigmoid function, the softmax function squashes the output of each unit to be between 0 and 1, as shown in  xample 3­6. However,the softmax operation also divides each output by the sum of all the outputs, which gives us a discrete probability distribution 3  over k possible classes: x i e softmax ( x i ) = k Σ e x j j=1 The probabilities in the resulting distribution all sum up to one. This is very useful for interpreting outputs for classification tasks, and so this transformation is usually paired with a probabilistic training objective, such as categorical cross entropy, which is covered in  Diving Deep into Supervised raining”.",
+      "y": "the softmax function squashes the output of each unit to be between 0 and 1"
+    },
+    {
+      "x": "how is softmax different from simoid?",
+      "z": "Another choice for the activation function is the softmax. Like the sigmoid function, the softmax function squashes the output of each unit to be between 0 and 1, as shown in  xample 3­6. However,the softmax operation also divides each output by the sum of all the outputs, which gives us a discrete probability distribution 3  over k possible classes: x i e softmax ( x i ) = k Σ e x j j=1 The probabilities in the resulting distribution all sum up to one. This is very useful for interpreting outputs for classification tasks, and so this transformation is usually paired with a probabilistic training objective, such as categorical cross entropy, which is covered in  Diving Deep into Supervised raining”.",
+      "y": "the softmax operation also divides each output by the sum of all the outputs, which gives us a discrete probability distribution"
+    },
+    {
+      "x": "how is softmax different from simoid?",
+      "z": "Another choice for the activation function is the softmax. Like the sigmoid function, the softmax function squashes the output of each unit to be between 0 and 1, as shown in  xample 3­6. However,the softmax operation also divides each output by the sum of all the outputs, which gives us a discrete probability distribution 3  over k possible classes: x i e softmax ( x i ) = k Σ e x j j=1 The probabilities in the resulting distribution all sum up to one. This is very useful for interpreting outputs for classification tasks, and so this transformation is usually paired with a probabilistic training objective, such as categorical cross entropy, which is covered in  Diving Deep into Supervised raining”.",
+      "y": "In addition, the softmax operation divides each output by the total of all outputs, yielding a discrete probability distribution."
+    },
+    {
+      "x": "how is softmax different from simoid?",
+      "z": "Another choice for the activation function is the softmax. Like the sigmoid function, the softmax function squashes the output of each unit to be between 0 and 1, as shown in  xample 3­6. However,the softmax operation also divides each output by the sum of all the outputs, which gives us a discrete probability distribution 3  over k possible classes: x i e softmax ( x i ) = k Σ e x j j=1 The probabilities in the resulting distribution all sum up to one. This is very useful for interpreting outputs for classification tasks, and so this transformation is usually paired with a probabilistic training objective, such as categorical cross entropy, which is covered in  Diving Deep into Supervised raining”.",
+      "y": "Furthermore, the softmax operation divides each output by the sum of all outputs, resulting in a discrete probability distribution."
+    },
+    {
+      "x": "what is the use of categorical crossentropy loss?",
+      "z": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilities the target y is a vector of n elements that represents the true multinomial distribution 4  over all the classes if only one class is correct this vector is a onehot vector the networks output  is also a vector of n elements but represents the networks prediction of the multinomial distribution categorical cross entropy will compare these two vectors y to measure the loss",
+      "y": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilitie"
+    },
+    {
+      "x": "where is categorical crossentropy loss used?",
+      "z": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilities the target y is a vector of n elements that represents the true multinomial distribution 4  over all the classes if only one class is correct this vector is a onehot vector the networks output  is also a vector of n elements but represents the networks prediction of the multinomial distribution categorical cross entropy will compare these two vectors y to measure the loss",
+      "y": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilitie"
+    },
+    {
+      "x": "what is the use of categorical crossentropy loss?",
+      "z": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilities the target y is a vector of n elements that represents the true multinomial distribution 4  over all the classes if only one class is correct this vector is a onehot vector the networks output  is also a vector of n elements but represents the networks prediction of the multinomial distribution categorical cross entropy will compare these two vectors y to measure the loss",
+      "y": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilitie"
+    },
+    {
+      "x": "which loss is used for multiclass classification?",
+      "z": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probabilities the target y is a vector of n elements that represents the true multinomial distribution 4  over all the classes if only one class is correct this vector is a onehot vector the networks output  is also a vector of n elements but represents the networks prediction of the multinomial distribution categorical cross entropy will compare these two vectors y to measure the loss",
+      "y": "the categorical crossentropy loss is typically used in a multiclass classification setting in which the outputs are interpreted as predictions of class membership probability"
+    },
+    {
+      "x": "what is supervised learning?",
+      "z": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples. In this section, we go into more detail. Specifically, we explicitly describe how to use model predictions and a loss function to do gradient­based optimization of a model’s parameters. This is an important section because the rest of the book relies on it, so it is worth going through it in detail even if you are somewhat familiar with supervised learning.",
+      "y": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples"
+    },
+    {
+      "x": "is training data labelled in  supervised learning?",
+      "z": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples. In this section, we go into more detail. Specifically, we explicitly describe how to use model predictions and a loss function to do gradient­based optimization of a model’s parameters. This is an important section because the rest of the book relies on it, so it is worth going through it in detail even if you are somewhat familiar with supervised learning.",
+      "y": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples"
+    },
+    {
+      "x": "is labelled data needed in  supervised learning?",
+      "z": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples. In this section, we go into more detail. Specifically, we explicitly describe how to use model predictions and a loss function to do gradient­based optimization of a model’s parameters. This is an important section because the rest of the book relies on it, so it is worth going through it in detail even if you are somewhat familiar with supervised learning.",
+      "y": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples"
+    },
+    {
+      "x": "is labelled data needed in  supervised learning?",
+      "z": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples. In this section, we go into more detail. Specifically, we explicitly describe how to use model predictions and a loss function to do gradient­based optimization of a model’s parameters. This is an important section because the rest of the book relies on it, so it is worth going through it in detail even if you are somewhat familiar with supervised learning.",
+      "y": "Supervised learning is the problem of learning how to map observations to specified targets given labeled examples"
+    },
+    {
+      "x": "what could be the issue with SGD optimizer?",
+      "z": "The PyTorch library offers several choices for an optimizer. Stochastic gradient descent (SGD) is a classic algorithm of choice, but for difficult optimization problems, SGD has convergence issues, often leading to poorer models. The current preferred alternative are adaptive optimizers, such as Adagrad or Adam, which use information about updates over time. 0  In the following example we use Adam, but it is always worth looking at several optimizers. With Adam, the default learning rate is 0.001. With hyperparameters such as learning rate, it’s always recommended to use the default values first, unless you have a recipe from a paper calling for a specific value.",
+      "y": "SGD has convergence issues, often leading to poorer models"
+    },
+    {
+      "x": "what is default learning rate for adam optimizer?",
+      "z": "The PyTorch library offers several choices for an optimizer. Stochastic gradient descent (SGD) is a classic algorithm of choice, but for difficult optimization problems, SGD has convergence issues, often leading to poorer models. The current preferred alternative are adaptive optimizers, such as Adagrad or Adam, which use information about updates over time. 0  In the following example we use Adam, but it is always worth looking at several optimizers. With Adam, the default learning rate is 0.001. With hyperparameters such as learning rate, it’s always recommended to use the default values first, unless you have a recipe from a paper calling for a specific value.",
+      "y": "With Adam, the default learning rate is 0.001. "
+    },
+    {
+      "x": "what is use of zero_grad()?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "any bookkeeping information, such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad() "
+    },
+    {
+      "x": "what is use of backward()?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient"
+    },
+    {
+      "x": "what is use of optimizer?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "the optimizer(opt) instructs the parameters how to update their values knowing the gradient with a function named step()"
+    },
+    {
+      "x": "what is use of backward() functntion of loss object?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient"
+    },
+    {
+      "x": "which function is used to propagate loss backwards?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "backward() iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient"
+    },
+    {
+      "x": "how to propagate loss backwards in pytorch?",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": "backward() iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient"
+    },
+        {
+      "x": "which function is used to update value of weights",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": " the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step()."
+    },
+            {
+      "x": "what is the use of step() function? ",
+      "z": "Let’s take a look at how this gradient­stepping algorithm looks. First, any bookkeeping information,such as gradients, currently stored inside the model (perceptron) object is cleared with a function named zero_grad(). Then, the model computes outputs (y_pred) given the input data (x_data). Next, the loss is computed by comparing model outputs (y_pred) to intended targets (y_target). This is the supervised part of the supervised training signal. The PyTorch loss object (criterion) has a function named backward() that iteratively propagates the loss backward through the computational graph and notifies each parameter of its gradient. Finally, the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step().",
+      "y": " the optimizer (opt) instructs the parameters how to update their values knowing the gradient with a function named step()."
+    }
+  ]
+}

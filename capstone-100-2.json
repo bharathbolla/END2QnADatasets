@@ -1,0 +1,504 @@
+{
+  "data": [
+    {
+      "x": "What are arguments to embedding layer",
+      "y": "The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension)",
+      "z": " The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension). A third argument is used in the code snippet in  xample 5­9: padding_idx. This argument is used as a sentinel value to the Embedding layer for situations like ours where the data points might not all be the same length"
+    },
+    {
+      "x": "does  embedding layer need size of the vocabulary? ",
+      "y": "The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension)",
+      "z": " The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension). A third argument is used in the code snippet in  xample 5­9: padding_idx. This argument is used as a sentinel value to the Embedding layer for situations like ours where the data points might not all be the same length"
+    },
+    {
+      "x": "does  embedding layer need embedding dimension? ",
+      "y": "The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension)",
+      "z": " The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension). A third argument is used in the code snippet in  xample 5­9: padding_idx. This argument is used as a sentinel value to the Embedding layer for situations like ours where the data points might not all be the same length"
+    },
+    {
+      "x": "Does the embedding layer require an embedding dimension?",
+      "y": "The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension)",
+      "z": " The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension). A third argument is used in the code snippet in  xample 5­9: padding_idx. This argument is used as a sentinel value to the Embedding layer for situations like ours where the data points might not all be the same length"
+    },
+    {
+      "x": "Is embedding dimension required for the embedding layer?",
+      "y": "The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension)",
+      "z": " The Embedding layer that is used here is parameterized primarily by two numbers: the number of embeddings (size of the vocabulary) and the size of the embeddings (embedding dimension). A third argument is used in the code snippet in  xample 5­9: padding_idx. This argument is used as a sentinel value to the Embedding layer for situations like ours where the data points might not all be the same length"
+    },
+    {
+      "x": "What are the functions utilised for reinforcement??",
+      "y": "The distributions package contains parameterizable probability distributions and sampling functions",
+      "z": "The distributions package contains parameterizable probability distributions and sampling functions. This allows the construction of stochastic computation graphs and stochastic gradient estimators for optimization. This package generally follows the design of the TensorFlow Distributions package.It is not possible to directly backpropagate through random samples. However, there are two main methods for creating surrogate functions that can be backpropagated through. These are the score function estimator/likelihood ratio estimator/REINFORCE and the pathwise derivative estimator. REINFORCE is commonly seen as the basis for policy gradient methods in reinforcement learning, and the pathwise derivative estimator is commonly seen in the reparameterization trick in variational autoencoders. Whilst the score function only requires the value of samples f(x)f(x), the pathwise derivative requires the derivative f'(x)f ′ (x). The next sections discuss these two in a reinforcement learning example. For more details see Gradient Estimation Using Stochastic Computation Graphs ."
+    },
+    {
+      "x": "What is included in the distribution package? ",
+      "y": "The distributions package contains parameterizable probability distributions and sampling functions",
+      "z": "The distributions package contains parameterizable probability distributions and sampling functions. This allows the construction of stochastic computation graphs and stochastic gradient estimators for optimization. This package generally follows the design of the TensorFlow Distributions package.It is not possible to directly backpropagate through random samples. However, there are two main methods for creating surrogate functions that can be backpropagated through. These are the score function estimator/likelihood ratio estimator/REINFORCE and the pathwise derivative estimator. REINFORCE is commonly seen as the basis for policy gradient methods in reinforcement learning, and the pathwise derivative estimator is commonly seen in the reparameterization trick in variational autoencoders. Whilst the score function only requires the value of samples f(x)f(x), the pathwise derivative requires the derivative f'(x)f ′ (x). The next sections discuss these two in a reinforcement learning example. For more details see Gradient Estimation Using Stochastic Computation Graphs ."
+    },
+    {
+      "x": "Where is reinforce function used? ",
+      "y": "REINFORCE is commonly seen as the basis for policy gradient methods in reinforcement learning",
+      "z": "The distributions package contains parameterizable probability distributions and sampling functions. This allows the construction of stochastic computation graphs and stochastic gradient estimators for optimization. This package generally follows the design of the TensorFlow Distributions package.It is not possible to directly backpropagate through random samples. However, there are two main methods for creating surrogate functions that can be backpropagated through. These are the score function estimator/likelihood ratio estimator/REINFORCE and the pathwise derivative estimator. REINFORCE is commonly seen as the basis for policy gradient methods in reinforcement learning, and the pathwise derivative estimator is commonly seen in the reparameterization trick in variational autoencoders. Whilst the score function only requires the value of samples f(x)f(x), the pathwise derivative requires the derivative f'(x)f ′ (x). The next sections discuss these two in a reinforcement learning example. For more details see Gradient Estimation Using Stochastic Computation Graphs ."
+    },
+    {
+      "x": "Where is pathwise derivative estimator  function used? ",
+      "y": "the pathwise derivative estimator is commonly seen in the reparameterization trick in variational autoencoders.",
+      "z": "The distributions package contains parameterizable probability distributions and sampling functions. This allows the construction of stochastic computation graphs and stochastic gradient estimators for optimization. This package generally follows the design of the TensorFlow Distributions package.It is not possible to directly backpropagate through random samples. However, there are two main methods for creating surrogate functions that can be backpropagated through. These are the score function estimator/likelihood ratio estimator/REINFORCE and the pathwise derivative estimator. REINFORCE is commonly seen as the basis for policy gradient methods in reinforcement learning, and the pathwise derivative estimator is commonly seen in the reparameterization trick in variational autoencoders. Whilst the score function only requires the value of samples f(x)f(x), the pathwise derivative requires the derivative f'(x)f ′ (x). The next sections discuss these two in a reinforcement learning example. For more details see Gradient Estimation Using Stochastic Computation Graphs ."
+    },
+    {
+      "x": "Which functions are used to implement reinforce? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "Which functions are employed in the implementation of reinforce? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "Which functions are used in the reinforcement implementation? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "Which functions are utilised in the execution of reinforcement? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "Which functions are used to carry out reinforcement? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "What functions are utilised for reinforcement? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "What are the functions that are used for reinforcement? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "What are the functions that are used for reinforcement? ",
+      "y": " we only need sample() and log_prob() to implement REINFORCE",
+      "z": "when the probability density function is differentiable with respect to its parameters we only need sample and logprob to implement reinforcedelta theta  lpha r fracpartiallog papi thetaspartial theta r  logpa  swhe   rtheta are the parameters lpha is the learning rate rr is the reward and papithetaspa  s is the probability of taking action aa in state ss given policy pitheta  in practice we would sample an action from the output of a network apply this action in an environment and then use logprob to construct an equivalent loss function note that we use a negative because optimizers use gradient descent whilst the rule above assumes gradient ascent with a categorical policy the code for implementing reinforce would be as follows"
+    },
+    {
+      "x": "What is the use of packageimporter and packageexporter? ",
+      "y": " packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder",
+      "z": "use the filestructure api packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder object the folder object is a simple directory structure that you can use to explore the current contents of a torchpackagethe folder object itself is directly printable and will print out a file tree representation to filter what is returned use the globstyle include and exclude filtering arguments"
+    },
+    {
+      "x": "What do packageimporter and packageexporter do? ",
+      "y": " packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder",
+      "z": "use the filestructure api packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder object the folder object is a simple directory structure that you can use to explore the current contents of a torchpackagethe folder object itself is directly printable and will print out a file tree representation to filter what is returned use the globstyle include and exclude filtering arguments"
+    },
+    {
+      "x": "What are the functions of packageimporter and packageexporter? ",
+      "y": " packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder",
+      "z": "use the filestructure api packageimporter and packageexporter provide a filestructure method which will return a printable and queryable folder object the folder object is a simple directory structure that you can use to explore the current contents of a torchpackagethe folder object itself is directly printable and will print out a file tree representation to filter what is returned use the globstyle include and exclude filtering arguments"
+    },
+    {
+      "x": "What are the function of packageimporter ? ",
+      "y": "a packageimporter will add the attribute torchpackage to every module that it initializes your code can check for the presence of this attribute to determine whether it is executing in a packaged context or not",
+      "z": "a packageimporter will add the attribute torchpackage to every module that it initializes your code can check for the presence of this attribute to determine whether it is executing in a packaged context or not in foobarpy if torchpackage in dir   true if the code is being loaded from a package    def isinpackage    return true    userexception  exception else   def isinpackage    return false    userexception  unpackageable exception now the code will behave differently depending on whether its imported normally through your python environment or imported from a torch package"
+    },
+    {
+      "x": "How torch.package finds your code’s dependencies ",
+      "y": "PackageExporter will pickle the object normally. The dependency resolver will gather up all GLOBAL ops and mark them as dependencies of your pickled object.",
+      "z": "When you issue a save_pickle(obj, ...) call, PackageExporter will pickle the object normally. Then, it uses the pickletools standard library module to parse the pickle bytecode.In a pickle, an object is saved along with a GLOBAL opcode that describes where to find the implementation of the object’s type, like:GLOBAL'torchvision.models.resnet Resnet` The dependency resolver will gather up all GLOBAL ops and mark them as dependencies of your pickled object. For more information about pickling and the pickle format, please consult the Python docs."
+    },
+    {
+      "x": "How torch.package finds module dependencies ",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "How does torch.package discover module dependencies? ",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "Torch.package discovers module dependencies in what way? ",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "In what method does Torch.package find module dependencies?",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "Torch.package determines module dependencies in what way?",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "How does Torch.package detect module dependencies?",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "How does Torch.package detect module dependencies?",
+      "y": "torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies",
+      "z": "Analyzing a module’s dependencies When a Python module is identified as a dependency, torch.package walks the module’s python AST representation and looks for import statements with full support for the standard forms: from x import y, import z, from w import v as u, etc. When one of these import statements are encountered, torch.package registers the imported modules as dependencies that are then themselves parsed in the same AST walking way.Note: AST parsing has limited support for the __import__(...) syntax and does not support importlib.import_module calls. In general, you should not expect dynamic imports to be detected by torch.package."
+    },
+    {
+      "x": "How does I see what inside  package?",
+      "y": "The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents.",
+      "z": "Treat the package like a ZIP archive The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents. Some common ways to interact with ZIP files: unzip my_package.pt will unzip the torch.package archive to disk, where you can freely inspect its contents. The Python zipfile module provides a standard way to read and write ZIP archive contents. Use the file_structure() API"
+    },
+    {
+      "x": "How can I view what's inside the package?",
+      "y": "The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents.",
+      "z": "Treat the package like a ZIP archive The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents. Some common ways to interact with ZIP files: unzip my_package.pt will unzip the torch.package archive to disk, where you can freely inspect its contents. The Python zipfile module provides a standard way to read and write ZIP archive contents. Use the file_structure() API"
+    },
+    {
+      "x": "How can I find out what's inside the package?",
+      "y": "The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents.",
+      "z": "Treat the package like a ZIP archive The container format for a torch.package is ZIP, so any tools that work with standard ZIP files should work for exploring the contents. Some common ways to interact with ZIP files: unzip my_package.pt will unzip the torch.package archive to disk, where you can freely inspect its contents. The Python zipfile module provides a standard way to read and write ZIP archive contents. Use the file_structure() API"
+    },
+    {
+      "x": "what is Distributed Data-Parallel Training?",
+      "y": "Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "what is Distributed Data-Parallel Training?",
+      "y": "Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": " is Distributed Data-Parallel Training used for single-program multiple-data training?",
+      "y": "Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": " how Distributed Data-Parallel Training  keep model replicas synchronized?",
+      "y": "DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": " does  Distributed Data-Parallel Training  keep model replicas synchronized?",
+      "y": "DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "whic is used for p2p communication DDP or RPC?",
+      "y": "RPC is used for p2p communication",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "whic is used for p2p communication DDP or RPC?",
+      "y": "RPC is used for p2p communication",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "Which  is utilised for peer-to-peer communication, DDP or RPC?",
+      "y": "RPC is used for p2p communication",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "DDP or RPC, is used for peer-to-peer communication?",
+      "y": "RPC is used for p2p communication",
+      "z": "As of PyTorch v1.6.0, features in torch.distributed can be categorized into three main components:Distributed Data-Parallel Training (DDP) is a widely adopted single-program multiple-data training paradigm. With DDP, the model is replicated on every process, and every model replica will be fed with a different set of input data samples. DDP takes care of gradient communications to keep model replicas synchronized and overlaps it with the gradient computations to speed up training.RPC-Based Distributed Training (RPC) is developed to support general training structures that cannot fit into data-parallel training, such as distributed pipeline parallelism, parameter server paradigm, and combination of DDP with other training paradigms. It helps manage remote object lifetime and extend autograd engine to beyond machine boundaries.Collective Communication (c10d) library support sending tensors across processes within a group. It offers both collective communication APIs (e.g., all_reduce and all_gather) and P2P communication APIs (e.g., send and isend). DDP and RPC (ProcessGroup Backend) are built on c10d as of v1.6.0, where the former uses collective communications and the latter uses P2P communications. Usually, developers do not need to directly use this raw communication API, as DDP and RPC features above can serve many distributed training scenarios. However, there are use cases where this API is still helpful. One example would be distributed parameter averaging, where applications would like to compute the average values of all model parameters after the backward pass instead of using DDP to communicate gradients. This can decouple communications from computations and allow finer-grain control over what to communicate, but on the other hand, it also gives up the performance optimizations offered by DDP. The Writing Distributed Applications with PyTorch shows examples of using c10d communication APIs.Most of the existing documents are written for either DDP or RPC, the remainder of this page will elaborate materials for these two components."
+    },
+    {
+      "x": "what are named tensor?",
+      "y": "Named Tensors allow users to give explicit names to tensor dimensions",
+      "z": "Named Tensors allow users to give explicit names to tensor dimensions. In most cases, operations that take dimension parameters will accept dimension names, avoiding the need to track dimensions by position. In addition, named tensors use names to automatically check that APIs are being used correctly at runtime, providing extra safety. Names can also be used to rearrange dimensions, for example, to support “broadcasting by name” rather than “broadcasting by position”."
+    },
+    {
+      "x": "can I give names to tensor dimension?",
+      "y": "Named Tensors allow users to give explicit names to tensor dimensions",
+      "z": "Named Tensors allow users to give explicit names to tensor dimensions. In most cases, operations that take dimension parameters will accept dimension names, avoiding the need to track dimensions by position. In addition, named tensors use names to automatically check that APIs are being used correctly at runtime, providing extra safety. Names can also be used to rearrange dimensions, for example, to support “broadcasting by name” rather than “broadcasting by position”."
+    },
+    {
+      "x": "can I give name tensor dimension?",
+      "y": "Named Tensors allow users to give explicit names to tensor dimensions",
+      "z": "Named Tensors allow users to give explicit names to tensor dimensions. In most cases, operations that take dimension parameters will accept dimension names, avoiding the need to track dimensions by position. In addition, named tensors use names to automatically check that APIs are being used correctly at runtime, providing extra safety. Names can also be used to rearrange dimensions, for example, to support “broadcasting by name” rather than “broadcasting by position”."
+    },
+    {
+      "x": "Can I assign a name to the tensor dimension?",
+      "y": "Named Tensors allow users to give explicit names to tensor dimensions",
+      "z": "Named Tensors allow users to give explicit names to tensor dimensions. In most cases, operations that take dimension parameters will accept dimension names, avoiding the need to track dimensions by position. In addition, named tensors use names to automatically check that APIs are being used correctly at runtime, providing extra safety. Names can also be used to rearrange dimensions, for example, to support “broadcasting by name” rather than “broadcasting by position”."
+    },
+    {
+      "x": "what is the use of named tensor?",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What is the function of a named tensor??",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "WWhat is a named tensor and what does it do?",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What is the purpose of a named tensor?",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What is a named tensor's purpose?",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What is the purpose of a named tensor?",
+      "y": "Named tensors use names to automatically check that APIs are being called correctly at runtime.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What happens during check names?",
+      "y": " an operator may perform automatic checks at runtime that check that certain dimension names must match.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "What happens in check names step?",
+      "y": " an operator may perform automatic checks at runtime that check that certain dimension names must match.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "in which step dimensions names are checked?",
+      "y": " check names",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "are dimension names checked during name inferencing?",
+      "y": " yes, during check names step",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "what does propagate names step do?",
+      "y": " name inference propagates names to output tensors",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "what happens in propagate names step ?",
+      "y": " name inference propagates names to output tensors",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "are names propagated to output tensor ?",
+      "y": " name inference propagates names to output tensors",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "are names propagated to output tensor ?",
+      "y": " name inference propagates names to output tensors",
+      "z": "Named tensors use names to automatically cppens during runtimeheck that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "name propagation happens in runtime ?",
+      "y": " name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "name propagation happens in runtime ?",
+      "y": " name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors.",
+      "z": "Named tensors use names to automatically check that APIs are being called correctly at runtime. This occurs in a process called name inference. More formally, name inference consists of the following two steps:Check names: an operator may perform automatic checks at runtime that check that certain dimension names must match Propagate names: name inference propagates names to output tensors."
+    },
+    {
+      "x": "bleu_score function is in which module of pytorch ?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": "in which module i can find bleu_score ?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": "which torchtext module has blue_score ?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": "where can i find bleu_score?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": "where can i find bleu_score function?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": "where can i find bleu_score function?",
+      "y": " torchtext.data.metrics",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " weights argument datatype in blue_score?",
+      "y": "  a list of weights used for each n-gram category (uniform by default)",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " how to specify the max ,n-grams in blue_score?",
+      "y": "  you could specify by using max_n argument",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " what is candidate_corpus arg in blue_score for?",
+      "y": "  candidate_corpus is an iterable of candidate translations. Each translation is an iterable of tokens",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " what is purpose of candidate_corpus arg in blue_score for?",
+      "y": "  candidate_corpus is an iterable of candidate translations. Each translation is an iterable of tokens",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " what is purpose of candidate_corpus arg in blue_score for?",
+      "y": "  candidate_corpus is an iterable of candidate translations. Each translation is an iterable of tokens",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " what is purpose of references_corpus arg in blue_score for?",
+      "y": " references_corpus is an iterable of iterables of reference translations. Each translation is an iterable of tokens",
+      "z": "torchtext.data.metrics.bleu_score(candidate_corpus, references_corpus, max_n=4, weights=[0.25, 0.25, 0.25, 0.25])[SOURCE] Computes the BLEU score between a candidate translation corpus and a references translation corpus. Based on https://www.aclweb.org/anthology/P02-1040.pdf Parameters candidate_corpus – an iterable of candidate translations. Each translation is an iterable of tokens references_corpus – an iterable of iterables of reference translations. Each translation is an iterable of tokens max_n – the maximum n-gram we want to use. E.g. if max_n=3, we will use unigrams, bigrams and trigrams weights – a list of weights used for each n-gram category (uniform by default)"
+    },
+    {
+      "x": " what is pytorch geometric for?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": " which module is for geometric deep learning?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorch has geometric deep learning support?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "which pytorch extension support geometric deep learning ?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "can we do geometric deep learning in pytorch?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorh suport geometric deep learning?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorh suport  deep learning on graphs?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorh suport  3D meshes?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support 3D meshes",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorh suport  3D meshes?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support 3D meshes",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorh suport point clouds?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "which library support point clouds?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does pytorch has a library support for point clouds?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "are point clouds supported?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "is there point clouds support in pytorch?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "how pytorch support point clouds?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "how pytorch support 3D meshes?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support point clouds",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "does PyTorch Geometric support multi gpu?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "are mutiple gpus supported by ptorch geometric?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "is ther  mutiple gpus support by ptorch geometric?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "is ther  mutiple gpus support by ptorch geometric?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": " mutiple gpus supported by ptorch geometric?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": " mutiple gpus are supported by ptorch geometric?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "  ptorch geometric has multiple gpu support?",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "Is ptorch geometric compatible with many GPUs? ",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+    {
+      "x": "are multiple gpus compatible with pytorch geometric? ",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+        {
+      "x": "multiple gpus compatible with pytorch geometric? ",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    },
+            {
+      "x": "multiple gpus are compatible with pytorch geometric? ",
+      "y": " PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It support multiple gpus",
+      "z": "PyTorch Geometric (PyG) is a geometric deep learning extension library for PyTorch.It consists of various methods for deep learning on graphs and other irregular structures, also known as geometric deep learning, from a variety of published papers. In addition, it consists of an easy-to-use mini-batch loader for many small and single giant graphs, multi gpu-support, a large number of common benchmark datasets (based on simple interfaces to create your own), and helpful transforms, both for learning on arbitrary graphs as well as on 3D meshes or point clouds."
+    }
+  ]
+}

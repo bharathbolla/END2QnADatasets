@@ -1,0 +1,509 @@
+{
+  "data": [
+    {
+      "x": "What does torchvision.transforms.CenterCrop do?",
+      "y": " Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "What is the purpose of torchvision.transforms.CenterCrop ?",
+      "y": " Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "What is torchvision.transforms.CenterCrop used for?",
+      "y": " Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "is center cropping available?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "is there center cropping available in torchvision?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "is there center cropping available in torchvision?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "which library supports center cropping?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "is there center cropping in pytorch?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "center cropping supported?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "centter cropping supported in pytorch?",
+      "y": " torchvision.transforms.CenterCrop Crops the given image at the center",
+      "z": " torchvision.transforms.CenterCrop(size)[SOURCE] Crops the given image at the center. If the image is torch Tensor, it is expected to have […, H, W] shape, where … means an arbitrary number of leading dimensions. If image size is smaller than output size along any edge, image is padded with 0 and then center cropped."
+    },
+    {
+      "x": "what is the use of torchvision.transforms.ColorJitter(brightness?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": "what is  torchvision.transforms.ColorJitter(brightness for?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": "what is  torchvision.transforms.ColorJitter(brightness used for?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": "when is torchvision.transforms.ColorJitter(brightness used ?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": "when is ColorJitter of torchvision.transforms used  for?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": "when is ColorJitter of torchvision.transforms user?",
+      "y": " Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is ColorJitter in torchvision.transforms ?",
+      "y": " yes,  it Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is ColorJitter present in torchvision.transforms ?",
+      "y": " yes,  it Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is ColorJitter available in torchvision.transforms ?",
+      "y": " yes,  it Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter available in torchvision.transforms ?",
+      "y": " yes,  it Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter is in torchvision.transforms ?",
+      "y": " yes,  it Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " which function in torchvision.transforms randomly changes brightness?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " which function in torchvision.transforms randomly changes conrast?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " which function in torchvision.transforms randomly changes saturation?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " which function in torchvision.transforms randomly changes hue?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter in torchvision.transforms randomly changes hue?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter in torchvision.transforms randomly changes saturation?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter in torchvision.transforms randomly changes brightness?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter in torchvision.transforms randomly changes saturation?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " ColorJitter in torchvision.transforms randomly changes contrast?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " can contrast of image be randomly changed?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " can saturation of image be randomly changed?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " can brightness of image be randomly changed?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " can hue of image be randomly changed?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is torchvision.transforms.ColorJitter used to change hue randomly?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is torchvision.transforms.ColorJitter used to change saturation randomly?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is torchvision.transforms.ColorJitter used to change contrast randomly?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " is torchvision.transforms.ColorJitter used to change brightness randomly?",
+      "y": " torchvision.transforms.ColorJitter  Randomly change the brightness, contrast, saturation and hue of an image",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what values can be used for brightness_factor in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " which values can be used for brightness_factor in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " brightness_factor in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " brightness_factor value in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " brightness_factor value in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " brightness_factor value  can be negtive in torchvision.transforms.ColorJitter?",
+      "y": " brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what can be hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what can be hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what is minimum  hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what is maximum  hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what is maximum  hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " what is maximum  hue value in torchvision.transforms.ColorJitter?",
+      "y": " hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5.",
+      "z": " torchvision.transforms.ColorJitter(brightness=0, contrast=0, saturation=0, hue=0)[SOURCE] Randomly change the brightness, contrast, saturation and hue of an image. If the image is torch Tensor, it is expected to have […, 3, H, W] shape, where … means an arbitrary number of leading dimensions. If img is PIL Image, mode “1”, “L”, “I”, “F” and modes with transparency (alpha channel) are not supported. Parameters brightness (float or tuple of python:float (min, max)) – How much to jitter brightness. brightness_factor is chosen uniformly from [max(0, 1 - brightness), 1 + brightness] or the given [min, max]. Should be non negative numbers. contrast (float or tuple of python:float (min, max)) – How much to jitter contrast. contrast_factor is chosen uniformly from [max(0, 1 - contrast), 1 + contrast] or the given [min, max]. Should be non negative numbers. saturation (float or tuple of python:float (min, max)) – How much to jitter saturation. saturation_factor is chosen uniformly from [max(0, 1 - saturation), 1 + saturation] or the given [min, max]. Should be non negative numbers.hue (float or tuple of python:float (min, max)) – How much to jitter hue. hue_factor is chosen uniformly from [-hue, hue] or the given [min, max]. Should have 0<= hue <= 0.5 or -0.5 <= min <= max <= 0.5."
+    },
+    {
+      "x": " why pytorch uses caching memory allocator?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why does Pytorch utilise a memory allocator for caching?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " What is the purpose of Pytorch's use of a memory allocator for caching?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " What is the objective of Pytorch's caching usage of a memory allocator? ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " What is the goal of Pytorch's use of a memory allocator for caching?  ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " What is the objective of Pytorch's caching usage of a memory allocator?  ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " does  pytorch uses caching memory allocator?  ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Does Pytorch make use of a memory allocator for caching? ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Is a memory allocator used by Pytorch for caching? ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Pytorch employs a memory allocator for caching. ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " For caching, Pytorch makes use of a memory allocator. ",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " For caching, Pytorch makes use of a memory allocator?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why nvidia-smi doesn't show true usage while using pytorch?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Why does nvidia-smi fail to provide actual use when using Pytorch?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Why does nvidia-smi fail to report real utilisation when Pytorch is used?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "When Pytorch is utilised, why does nvidia-smi fail to show true utilisation?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "Why does nvidia-smi fail to display actual usage when Pytorch is used?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "Why doesn't nvidia-smi show actual consumption when Pytorch is used?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "Why does nvidia-smi fail to display actual usage when Pytorch is used?",
+      "y": " PyTorch uses a caching memory allocator to speed up memory allocations.",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "how to know about python subprocesses which are still alive?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I find out about Python subprocesses that are still active?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I learn about Python subprocesses that are still running?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I find out more about Python subprocesses that are still active?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I learn more about still-running Python subprocesses?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I learn more about Python subprocesses that are still running?",
+      "y": " You may find them via ps -elf | grep python",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How to manually kill python subprocess?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I manually terminate a Python subprocess?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How can I manually end a Python subprocess?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "How to find and  manually end a Python subprocess?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " find and  manually end a Python subprocess?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " find and   end a Python subprocess manually?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " find and   terminate a Python subprocess manually?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " how to find and   terminate a Python subprocess manually?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " gpu not freed poperly?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why gpu not freed poperly?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why gpu is not freed poperly?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why my gpu is not freed poperly?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "  gpu is not freed poperly as per nvidia-smi?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "  why gpu is not freed poperly as per nvidia-smi?",
+      "y": " You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "  why gpu is not freed after python quits?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "   gpu is not freed even after python quits?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": "   gpu not freed on quitting python?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " why  gpu not freed on quitting python?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Why isn't the GPU released when you exit Python?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " When Python is terminated, why isn't the GPU freed?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " Why isn't the GPU released when Python is terminated?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+    {
+      "x": " When Python is ended, why isn't the GPU released?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+        {
+      "x": " When Python is ended, why isn't the GPU released?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+        {
+      "x": " Why isn't the GPU released when Python is finished?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    },
+            {
+      "x": " Why isn't the GPU made available after Python is finished?",
+      "y": " If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid].",
+      "z": " PyTorch uses a caching memory allocator to speed up memory allocations. As a result, the values shown in nvidia-smi usually don’t reflect the true memory usage. See Memory management for more details about GPU memory management.If your GPU memory isn’t freed even after Python quits, it is very likely that some Python subprocesses are still alive. You may find them via ps -elf | grep python and manually kill them with kill -9 [pid]."
+    }
+  ]
+}
